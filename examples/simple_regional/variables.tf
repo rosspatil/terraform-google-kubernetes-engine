@@ -15,7 +15,7 @@
  */
 
 variable "project_id" {
-  description = "vanguard-20200519"
+  default = "vanguard-20200519"
 }
 
 variable "cluster_name_suffix" {
@@ -24,23 +24,23 @@ variable "cluster_name_suffix" {
 }
 
 variable "region" {
-  description = "asia-south1"
+  default = "asia-south1"
 }
 
 variable "network" {
-  description = "default"
+  default = "default"
 }
 
 variable "subnetwork" {
-  description = "default"
+  default = "default"
 }
 
 variable "ip_range_pods" {
-  description = "sample-ip-pods"
+  default = "sample-ip-pods"
 }
 
 variable "ip_range_services" {
-  description = "sample-ip-services"
+  default = "sample-ip-services"
 }
 
 variable "compute_engine_service_account" {
