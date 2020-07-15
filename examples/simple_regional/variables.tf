@@ -15,7 +15,7 @@
  */
 
 variable "project_id" {
-  description = "The project ID to host the cluster in"
+  description = "vanguard-20200519"
 }
 
 variable "cluster_name_suffix" {
@@ -24,23 +24,23 @@ variable "cluster_name_suffix" {
 }
 
 variable "region" {
-  description = "The region to host the cluster in"
+  description = "asia-south1"
 }
 
 variable "network" {
-  description = "The VPC network to host the cluster in"
+  description = "default"
 }
 
 variable "subnetwork" {
-  description = "The subnetwork to host the cluster in"
+  description = "default"
 }
 
 variable "ip_range_pods" {
-  description = "The secondary ip range to use for pods"
+  description = "sample-ip-pods"
 }
 
 variable "ip_range_services" {
-  description = "The secondary ip range to use for services"
+  description = "sample-ip-services"
 }
 
 variable "compute_engine_service_account" {
